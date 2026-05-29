@@ -1,6 +1,6 @@
-# Study Timer Web App
+Work Timer Web App
 
-This project is a responsive Study Timer Application developed using:
+This project is a responsive Work Timer Application developed using:
 
 - HTML5
 - CSS3
