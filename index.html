@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="timer-card">
+        <div class="timer-header">
+          <div>
+           
+            <h1>Timer</h1>
+
+        
+        <div class="timer-display" id="timerDisplay">00 : 00 : 00</div>
+
+        <div class="status-panel">
+          <div class="status-item">
+            <span class="label">Status</span>
+            <strong id="timerStatus">Paused</strong>
+          </div>
+          <div class="status-item">
+            <span class="label">Total Time</span>
+            <strong id="totalTime">00 : 00 : 00</strong>
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button class="button primary" id="startButton">Start</button>
+          <button class="button secondary" id="pauseButton" disabled>Pause</button>
+          <button class="button secondary" id="resumeButton" disabled>Resume</button>
+          <button class="button reset" id="resetButton">Reset</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
